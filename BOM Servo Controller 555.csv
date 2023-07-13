@@ -1,0 +1,18 @@
+#,Reference,Qty,Value,Footprint,Link
+1,C1,1,22n,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H223ZA1FD3F4D10MF_C254098.html
+2,C2,1,100n,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H104ZA1ED3F5P1100_C2832506.html
+3,C3,1,22u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X6S226M6R3NT_C2835558.html
+4,D1,1,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Switching-Diode_LGE-1N4148_C402212.html
+5,D2,1,D,Diode_SMD:D_SMA_Handsoldering,https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_TWGMC-SS34_C727060.html
+6,D3,1,LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_Orient-ORH-YG35A_C205449.html
+7,D4,1,LED,LED_THT:LED_D5.0mm,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_XINGLIGHT-XL-502SURD_C2895492.html
+8,J1,1,SERVO,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C49257_C49257.html
+9,J2,1,VIN,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",https://www.lcsc.com/product-detail/Screw-span-style-background-color-ff0-terminal-span_Ningbo-Kangnex-Elec-WJ126V-5-0-2P_C8404.html
+10,R1,1,1M,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-CR1-4W-1M-5-ST52_C2894664.html
+11,R2,1,22k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-MO1-4W-22K-5-ST52_C479388.html
+12,R3,1,1k,Resistor_SMD:R_1206_3216Metric,https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR1206J1K_C3018015.html
+13,R4,1,1k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-1K-1-T52_C713997.html
+14,RV1,1,100k,Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical,https://www.digikey.com.au/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?s=N4IgTCBcDaIA4BcBuAGAnAQwLQBYVgFYAzLAIwEYUcQBdAXyA
+15,"TP1, TP2, TP3, TP4, TP5",5,TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html
+16,U1,1,LM555xN,Package_DIP:DIP-8_W7.62mm,https://www.lcsc.com/product-detail/Timers-Clock-Oscillators_Gcore-NE555_C5157852.html
+17,U2,1,AMS1117-5.0,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Slkor-SLKORMICRO-Elec-AMS1117-5-0_C473812.html

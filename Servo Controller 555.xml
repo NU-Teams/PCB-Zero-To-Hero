@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/michael/Dropbox/3 PCB Design/KiCad/Enhanced Servo Controller 555/Servo Controller 555.kicad_sch</source>
+    <date>Tue 13 Jun 2023 18:18:43</date>
+    <tool>Eeschema 7.0.5-7.0.5~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Servo Controller 555</title>
+        <company>NU Teams</company>
+        <rev/>
+        <date/>
+        <source>Servo Controller 555.kicad_sch</source>
+        <comment number="1" value="Michael Ruppe"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H223ZA1FD3F4D10MF_C254098.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H223ZA1FD3F4D10MF_C254098.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b8eb4df-64ce-4598-b39a-b81c3a9fcb0d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H104ZA1ED3F5P1100_C2832506.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H104ZA1ED3F5P1100_C2832506.html"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4beb288b-0acb-4439-af2c-6b2e9ef70999</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X6S226M6R3NT_C2835558.html</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X6S226M6R3NT_C2835558.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9829a82-9108-4a1a-9254-63c785daae40</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Switching-Diode_LGE-1N4148_C402212.html</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Switching-Diode_LGE-1N4148_C402212.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da1ab445-f58c-46e9-940d-eb046234ac6d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_TWGMC-SS34_C727060.html</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_TWGMC-SS34_C727060.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c55e0940-4e56-4b54-9a71-3ee493dbaf7c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_Orient-ORH-YG35A_C205449.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_Orient-ORH-YG35A_C205449.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94202729-3369-48d8-a2f9-e5742622a242</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_XINGLIGHT-XL-502SURD_C2895492.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_XINGLIGHT-XL-502SURD_C2895492.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>150dee88-e548-47d5-9151-fabb54f26c35</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SERVO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C49257_C49257.html</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/span-style-background-color-ff0-Pin-span-Headers_BOOMELE-Boom-Precision-Elec-C49257_C49257.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b737cf0e-acd7-412f-8d96-2202b7954bbf</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>VIN</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Screw-span-style-background-color-ff0-terminal-span_Ningbo-Kangnex-Elec-WJ126V-5-0-2P_C8404.html</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Screw-span-style-background-color-ff0-terminal-span_Ningbo-Kangnex-Elec-WJ126V-5-0-2P_C8404.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0edfd74-a676-4081-a9bc-d5b9ab9ef3a9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-CR1-4W-1M-5-ST52_C2894664.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-CR1-4W-1M-5-ST52_C2894664.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c37e8a12-371b-477a-a125-0b1243dc2a80</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-MO1-4W-22K-5-ST52_C479388.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Through-Hole-Resistors_VO-MO1-4W-22K-5-ST52_C479388.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01c3bbc4-938d-4a53-aec8-ebff7e5050a8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR1206J1K_C3018015.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR1206J1K_C3018015.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a9581cc-01e0-4d68-b1a1-9b8d1cee9468</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-1K-1-T52_C713997.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-1K-1-T52_C713997.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31fa205d-dbdb-4ec1-a35b-451fd2a43b2b</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <fields>
+        <field name="Link">https://www.digikey.com.au/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?s=N4IgTCBcDaIA4BcBuAGAnAQwLQBYVgFYAzLAIwEYUcQBdAXyA</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Link" value="https://www.digikey.com.au/en/products/detail/bourns-inc/PTV09A-4025F-B104/3820577?s=N4IgTCBcDaIA4BcBuAGAnAQwLQBYVgFYAzLAIwEYUcQBdAXyA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59f47d87-688b-40fa-b044-90c72d315c98</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e8410bf-9325-409d-8b2f-89dc155ea449</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bad7280-573a-4478-9af9-6af04a5e16aa</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce11527c-3f43-4037-a352-ff2a394ecad5</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a3efb6c-d92c-40c3-820b-1884edc71173</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded</footprint>
+      <datasheet>https://www.keyelco.com/product-pdf.cfm?p=1309</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Thimble-Copper-Rod-span-style-background-color-ff0-Test-span-Ring_ronghe-RH-5002_C5199802.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76f6bc35-fd62-4256-bfa0-df8a62ff147a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM555xN</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Timers-Clock-Oscillators_Gcore-NE555_C5157852.html</field>
+      </fields>
+      <libsource lib="Timer" part="LM555xN" description="Timer, 555 compatible, PDIP-8"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Timers-Clock-Oscillators_Gcore-NE555_C5157852.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="Timer, 555 compatible, PDIP-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc593b49-e990-4aed-9427-c540a8fd8c5a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Link">https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Slkor-SLKORMICRO-Elec-AMS1117-5-0_C473812.html</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-LDO_Slkor-SLKORMICRO-Elec-AMS1117-5-0_C473812.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Servo Controller 555.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b67996cc-ffcf-499c-a6a4-3166726c2d56</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555xN">
+      <description>Timer, 555 compatible, PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555xN</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/symbols//Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/SIGNAL">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(D1-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(RV1-Pad3)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-CV-Pad5)">
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
